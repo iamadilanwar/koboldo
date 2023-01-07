@@ -3,7 +3,7 @@ import Home from "./App/Home";
 
 import HeaderApp from "./components/Header";
 
-const { Footer, Content } = Layout;
+const {Content } = Layout;
 
 function App({ pageProps }) {
   console.log("pageProps", pageProps);
