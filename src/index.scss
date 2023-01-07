@@ -1,0 +1,14 @@
+@import "/src/styles/variables";
+
+.ant-layout-content{
+  background-color:   $backgroundLight;
+  margin: 0;
+  padding: 1rem 7rem;
+  min-height: 100vh !important;
+}
+
+@media (max-width: 767px) {
+  .ant-layout-content{
+    padding: 0.5rem;
+  }
+}
